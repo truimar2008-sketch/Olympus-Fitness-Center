@@ -1,0 +1,83 @@
+/* Estilos generales para el cuerpo de la web */
+body {
+    background-color: #f4f4f4; /* Un gris muy claro de fondo */
+    font-family: Arial, sans-serif; /* Una fuente limpia y legible  */
+    color: #333333; /* Color de texto principal */
+    margin: 20px; /* Margen para que el contenido no pegue a los bordes */
+}
+
+/* Estilo para los títulos principales */
+h1 {
+    color: #cc0000; /* Rojo deportivo para el nombre del centro */
+    text-align: center; /* Centrado para que destaque  */
+    text-transform: uppercase; /* Todo en mayúsculas */
+    border-bottom: 3px solid #000000; /* Línea gruesa debajo del título  */
+}
+
+h2, h3 {
+    color: #004488; /* Azul oscuro para secciones */
+    border-left: 10px solid #cc0000; /* Un detalle decorativo a la izquierda  */
+    padding-left: 10px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5; /* Separación entre líneas para leer mejor */
+}
+
+/* Estilo para las tablas */
+table {
+    width: 80%; /* Que ocupe casi todo el ancho */
+    border-collapse: collapse; /* Para que las líneas no sean dobles  */
+    margin: 20px auto; /* Centrar la tabla */
+    background-color: #ffffff; /* Fondo blanco para los datos */
+}
+
+th {
+    background-color: #004488; /* Fondo azul para la cabecera  */
+    color: #ffffff; /* Letras blancas */
+    padding: 10px;
+}
+
+td {
+    text-align: center; /* Texto centrado en las celdas  */
+    padding: 8px;
+    border: 1px solid #cccccc; /* Bordes finos grises */
+}
+
+/* Estilo para las imágenes */
+img {
+    border: 5px solid #000000; /* Un marco negro para las fotos  */
+    display: block;
+    margin: 10px auto; /* Centrar la imagen de la sala */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #e2e2e2; /* Un gris un poco más oscuro para el área del formulario */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px dashed #333; /* Borde punteado  */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #cc0000;
+    text-decoration: none; /* Quitar el subrayado típico */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004488; /* Cambia a azul cuando pasas el ratón por encima  */
+    text-decoration: underline;
+}
+
+/* Estilo para la sección de dirección (ID direccion) */
+#direccion {
+    font-style: italic; /* Texto en cursiva  */
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

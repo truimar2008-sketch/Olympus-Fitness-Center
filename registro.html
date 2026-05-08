@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registro - Olympus Fitness Center</title>
+	<link rel="stylesheet" type="text/css" href="estilos-tarea.css">
+</head>
+<body>
+
+<!-- Web creada por Tomás Ruiz -->
+
+	<h1>Formulario de Alta de Socio</h1>
+	<p>Completa tus datos para formar parte de Olimpo.</p>
+	
+	<hr>
+
+	<form name="inscripcion" action="#" method="post">
+		Nombre: <input type="text" name="nombre"><br>
+		Contraseña: <input type="password" name="pin"><br>
+		
+		<hr>
+
+		<strong>Servicios extra:</strong><br>
+		Toalla <input type="checkbox" name="toalla">
+		Taquilla <input type="checkbox" name="taquilla">
+		Sauna <input type="checkbox" name="sauna"><br>
+
+		<br>
+
+		<strong>Tipo de cuota:</strong><br>
+		Mensual <input type="radio" name="cuota" value="mensual">
+		Trimestral <input type="radio" name="cuota" value="trimestral">
+		Anual <input type="radio" name="cuota" value="anual"><br>
+
+		<br>
+
+		Subir foto de perfil: <input type="file" name="documentacion"><br>
+
+		<br>
+
+		Elige tu actividad favorita:
+		<select name="actividad">
+			<option value="spinning">Spinning</option>
+			<option value="yoga">Yoga</option>
+			<option value="zumba">Zumba</option>
+		</select><br>
+
+		<br>
+
+		¿Tienes alguna lesión o condición médica?:<br>
+		<textarea name="lesiones" cols="30" rows="5"></textarea><br>
+
+		<br>
+
+		<input type="submit" value="Enviar alta">
+		<input type="reset" value="Borrar datos">
+	</form>
+
+	<hr>
+	<p><a href="index.html">Volver a la página principal</a></p>
+
+</body>
+</html>
